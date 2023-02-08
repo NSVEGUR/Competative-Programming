@@ -12,10 +12,3 @@ public:
         return nums.size() > set<int>(nums.begin(), nums.end()).size();
     }
 };
-
-int main(){
-    Solution s;
-    vector<int> v{1,1,1, 2, 3, 4, 5, 6, 7, 8};  
-    cout<<s.containsDuplicate(v)<<endl;
-    return 0;
-}
